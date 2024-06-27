@@ -49,10 +49,10 @@ export default function Home() {
 
   return (
   <>
-  <div className=" max-w-[400px]  bg-white border border-neutral-400 p-[30px] rounded-full mt-[32px] mx-3 mob-l:mx-auto">
+  <div className=" max-w-[400px]  bg-white border border-neutral-400 p-[20px] rounded-full mt-[32px] mx-3 mob-l:mx-auto">
    <ul className="flex ">
     <div className="flex mx-auto space-x-10">
-  <li className="text-black  text-xl ">Home</li>
+  <li className="text-black  text-lg ">Home</li>
   <li className="text-gray-500  text-xl">About</li>
   <li className="text-gray-500  text-xl">Projects</li>
   </div>
