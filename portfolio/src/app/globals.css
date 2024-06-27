@@ -11,7 +11,7 @@ body {
     @apply lap-2xl:text-[54px] lap-xl:text-[50px] tab:text-[48px] mob-l:text-[46px] mob-m:text-[40px] mob-s:text-[46px];
   }
   h2 {
-    @apply lap-2xl:text-[30px] lap-xl:text-[26px] tab:text-[28px] mob-l:text-[24px] mob-m:text-[22px] mob-s:text-[20px];
+    @apply lap-2xl:text-[30px] lap-xl:text-[26px] tab:text-[28px] mob-l:text-[20px] mob-m:text-[18px] mob-s:text-[15px];
   }
 
 }
