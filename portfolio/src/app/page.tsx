@@ -6,6 +6,7 @@ export default function Home() {
  
   const project = [
     {
+      id: 1,
       Project: 'Dual Network',
       TagTwo: 'Design',
       TagThree: 'Product Manager',
@@ -13,12 +14,14 @@ export default function Home() {
       link: 'https://www.dual.network/'
     },
     {
+      id: 2,
       Project: 'Iggy AI',
       TagTwo: 'Design',
       Description: "Iggy Ai is a AI companion that user can chat with and earn $Rizz. Iggy was modelled after Rapper and Musician Iggy Azelea.",
       link: "",
     },
     {
+      id: 3,
       Project: 'Docmonster',
       TagThree: 'Fullstack Development',
       TagTwo: 'Design',
@@ -26,6 +29,7 @@ export default function Home() {
       link: "",
     },
     {
+      id: 4,
       Project: 'Tatva Finance',
       TagTwo: 'Design',
       TagThree: 'Frontend Development(some)',
