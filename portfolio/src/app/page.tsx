@@ -8,6 +8,7 @@ export default function Home() {
     {
       id: 1,
       Project: 'Dual Network',
+      TagOne: null,
       TagTwo: 'Design',
       TagThree: 'Product Manager',
       Description: "Dual network is a modular blockchain built for verifiable on-chain AI inferences. I was the Designer and PM for Dual network at Martian Wallet  ",
@@ -16,13 +17,16 @@ export default function Home() {
     {
       id: 2,
       Project: 'Iggy AI',
+      TagOne: null,
       TagTwo: 'Design',
+      TagThree: null,
       Description: "Iggy Ai is a AI companion that user can chat with and earn $Rizz. Iggy was modelled after Rapper and Musician Iggy Azelea.",
       link: "",
     },
     {
       id: 3,
       Project: 'Docmonster',
+      TagOne: null,
       TagThree: 'Fullstack Development',
       TagTwo: 'Design',
       Description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -31,6 +35,7 @@ export default function Home() {
     {
       id: 4,
       Project: 'Tatva Finance',
+      TagOne: null,
       TagTwo: 'Design',
       TagThree: 'Frontend Development(some)',
       Description: " Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
