@@ -32,7 +32,7 @@ export default function Home() {
       TagThree: null,
       Description: "Iggy Ai is a AI companion that user can chat with and earn $Rizz. Iggy was modelled after Rapper and Musician Iggy Azelea.",
       link: "https://x.com/martian_wallet/status/1798438538335436848",
-      image: '/iggy.png'
+      image: '/Iggy.png'
     },
    
     {
