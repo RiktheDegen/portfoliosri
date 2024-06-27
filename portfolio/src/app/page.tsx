@@ -60,7 +60,7 @@ export default function Home() {
 
 
 
- <div className=" mx-4 mt-32 mx-4 lap-xl:mx-64 lap:mx-16 tab:mx-8">
+ <div className=" mx-4 mt-32  lap-xl:mx-64 lap:mx-16 tab:mx-8">
 <h1 className="text-[40px] font-bold">TL:DR</h1>
 <p className="mt-4 text-l lap:text-xl ">
 Hi I’m Srinath. Currently I work on product and growth at Martian Wallet. I recently graduated from Duke University’s Fuqua School of Business. I’ve been building things since I was in middle school, building apps and games with tens of thousands of downloads. I briefly ran Tatva Finance - a DeFi analytics startup where we built a screener for DeFi Yield Farms. I also worked with Dave Nemetz as Employee #1 at his Web3 Syndicate. Post college I ran a growth marketing agency and wrote a book with Abhinav Arora. 
@@ -78,7 +78,7 @@ If you think we should chat, Dm me on X or email me: srinathwork08@gmail.com
 
     <section>
           <h2 className="text-xl font-bold mb-6">Mix of professional and personal projects</h2>
-          <div className=" flex grid grid-cols-3 gap-3 tab:grid-cols-2  mob-l:grid-cols-1 mob-m:grid-cols-1  mob-s:grid-cols-1 ">
+          <div className=" grid grid-cols-3 gap-3 tab:grid-cols-2  mob-l:grid-cols-1 mob-m:grid-cols-1  mob-s:grid-cols-1 ">
             {project.map((project) => (
               <div key={project} className="bg-gray-200 p-4 rounded-lg">
                 <div className="w-full h-64 bg-gray-300 mb-4 rounded-lg"></div>
