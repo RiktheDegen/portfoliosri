@@ -51,7 +51,7 @@ export default function Home() {
   <>
   <div className=" max-w-[300px]  bg-white border border-neutral-400 p-[20px] rounded-full mt-[32px] mx-auto">
    <ul className="flex ">
-    <div className="flex mx-auto space-x-10">
+    <div className="flex mx-auto space-x-8">
   <li className="text-black  text-lg ">Home</li>
   <li className="text-gray-500  text-xl">About</li>
   <li className="text-gray-500  text-xl">Projects</li>
