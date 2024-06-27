@@ -62,7 +62,7 @@ export default function Home() {
   
   <div className=" mx-4 lap-xl:mx-64 lap:mx-16 tab:mx-8"> 
     <h1 className=" lap-xl:text-[#1C1C1C] font-normal  mt-[162px]">Hi there, I’m  Srinath 👋</h1>
-   <h2 className="text-black mt-4">I am a <i>designer</i> and <i>developer</i> who likes building cool products.</h2>
+   <p className="text-black mt-4">I am a <i>designer</i> and <i>developer</i> who likes building cool products.</p>
   
     </div>
  <div className="mx-64 mt-[185px] ">
@@ -80,8 +80,8 @@ export default function Home() {
 
 
  <div className=" mx-4 mt-32  lap-xl:mx-64 lap:mx-16 tab:mx-8">
-<h1 className="text-[40px] font-bold">TL:DR</h1>
-<p className="mt-4 text-lg lap:text-2xl ">
+<h1 className="text-[30px] font-bold">TL:DR</h1>
+<p className="mt-4 text-lg ">
 Hi I’m Srinath. Currently I work on product and growth at Martian Wallet. I recently graduated from Duke University’s Fuqua School of Business. I’ve been building things since I was in middle school, building apps and games with tens of thousands of downloads. I briefly ran Tatva Finance - a DeFi analytics startup where we built a screener for DeFi Yield Farms. I also worked with Dave Nemetz as Employee #1 at his Web3 Syndicate. Post college I ran a growth marketing agency and wrote a book with Abhinav Arora. 
 <br />
 <br/>
@@ -91,7 +91,7 @@ If you think we should chat, Dm me on X or email me: srinathwork08@gmail.com
 
 
 <div className="mx-auto">
-      <h2 className="mt-32 text-3xl font-bold mb-6">Past Experience</h2>
+      <h1 className="mt-32 text-[30px] font-bold mb-6">Past Experience</h1>
      
     </div>
 
