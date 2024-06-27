@@ -13,6 +13,25 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
+      screens: {
+        "mob-s" : "320px",
+        "mob-m" : "375px",
+        "mob-l" : "425px",
+        "tab" : "768px",
+        "lap" : "1024px",
+        "lap-xl" :"1440px",
+        "lap-2xl" :"1920px",
+      },
+     
+      keyframes: {
+        'fade-in-out': {
+          '0%, 100%': { opacity: 1 },
+          '50%': { opacity: 0 },
+        },
+      },
+      animation: {
+        'fade-in-out': 'fade-in-out 8s infinite',
+      },
     },
   },
   plugins: [],
