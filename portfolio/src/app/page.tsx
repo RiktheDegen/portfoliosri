@@ -100,7 +100,7 @@ If you think we should chat, Dm me on X or email me: srinathwork08@gmail.com
           <div className=" grid grid-cols-3 gap-3 tab:grid-cols-2  mob-l:grid-cols-1 mob-m:grid-cols-1  mob-s:grid-cols-1 ">
             {project.map((project) => (
               <div key={project.id} className="bg-gray-100 p-4 rounded-lg">
-                <Image className="w-full  bg-gray-300 mb-4 rounded-lg" src= {project.image} width={'622'} height={'423'}></Image>
+                <Image className="w-full  bg-gray-300 mb-4 rounded-lg" src= {project.image} width={'622'} height={'423'} alt=""></Image>
                 <h2>{project.Project}</h2>
                 <div className="flex flex-row gap-x-2 mt-1">
                {project.TagOne && <p className="text-black py-1 px-3 bg-[#FFCB13] rounded-xl text-[15px]">{project.TagOne}</p>} 
