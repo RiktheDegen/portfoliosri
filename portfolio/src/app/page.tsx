@@ -49,7 +49,7 @@ export default function Home() {
 
   return (
   <>
-  <div className=" max-w-[400px]  bg-white border border-neutral-400 p-[20px] rounded-full mt-[32px] mx-3 mob-l:mx-auto">
+  <div className=" max-w-[300px]  bg-white border border-neutral-400 p-[20px] rounded-full mt-[32px] mx-auto">
    <ul className="flex ">
     <div className="flex mx-auto space-x-10">
   <li className="text-black  text-lg ">Home</li>
@@ -60,7 +60,7 @@ export default function Home() {
   </div>
   
   
-  <div className=" mx-4 lap-xl:mx-64 lap:mx-16 tab:mx-8"> 
+  <div className=" mx-4 lap-xl:mx-64 lap:mx-16 mob-l:mx-8"> 
     <h1 className=" lap-xl:text-[#1C1C1C] font-normal  mt-[162px]">Hi there, I’m  Srinath 👋</h1>
    <p className="text-black mt-4">I am a <i>designer</i> and <i>developer</i> who likes building cool products.</p>
   
