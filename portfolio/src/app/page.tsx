@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from 'next/link';
-
+import InfiniteScrollLogos from "./stack";
 export default function Home() {
  
   const project = [
