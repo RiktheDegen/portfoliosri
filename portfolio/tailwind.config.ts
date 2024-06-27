@@ -23,15 +23,7 @@ const config: Config = {
         "lap-2xl" :"1920px",
       },
      
-      keyframes: {
-        'fade-in-out': {
-          '0%, 100%': { opacity: 1 },
-          '50%': { opacity: 0 },
-        },
-      },
-      animation: {
-        'fade-in-out': 'fade-in-out 8s infinite',
-      },
+     
     },
   },
   plugins: [],
