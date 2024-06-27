@@ -60,7 +60,7 @@ export default function Home() {
   </div>
   
   
-  <div className=" mx-4 lap-xl:mx-64 lap:mx-16 mob-l:mx-8"> 
+  <div className=" mx-4 lap-xl:mx-64 lap:mx-16 tab:mx-8"> 
     <h1 className=" lap-xl:text-[#1C1C1C] font-normal  mt-[162px]">Hi there, I’m  Srinath 👋</h1>
    <p className="text-black mt-4">I am a <i>designer</i> and <i>developer</i> who likes building cool products.</p>
   
