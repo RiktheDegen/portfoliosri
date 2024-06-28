@@ -1,8 +1,21 @@
+'use client'
 import Image from "next/image";
 import Link from 'next/link';
-import InfiniteScrollLogos from "./stack";
+import React, { useState } from 'react'
+
 export default function Home() {
  
+  const [clickOne, setClickOne] = useState(false);
+  const [clickTwo, setClickTwo] = useState(false);
+
+  function fireOne(){
+    setClickOne(true);
+  };
+  function firetwo(){
+    setClickTwo(true);
+  };
+
+
   const project = [
     {
       id: 1,
@@ -62,7 +75,10 @@ export default function Home() {
   
   <div className=" mx-4 lap-xl:mx-64 lap:mx-16 tab:mx-8"> 
     <h1 className=" lap-xl:text-[#1C1C1C] font-normal  mt-[162px]">Hi there, I’m  Srinath 👋</h1>
-   <p className="text-black mt-4">I am a <i>designer</i> and <i>developer</i> who likes building cool products.</p>
+   <p className="text-black mt-4">I am a  
+    
+    <button className=" flex-row p-2 bg-gray-200 rounded-md hover:animate-pulse" onClick={fireOne}><i> designer <Image width={30} height={30} src={'/figma.svg'} alt="" className="inline-flex ml-1"></Image></i> {clickOne && <button className=" bg-gray-200 rounded-md">making thoughtful experiences with Figma</button> }</button>and 
+    <button className=" flex-row p-2 bg-gray-200 rounded-md mt-2 hover:animate-pulse" onClick={firetwo}><i> developer <Image width={30} height={30} src={'/dev.svg'} alt="" className="inline-flex ml-1"></Image></i> {clickTwo && <button className=" bg-gray-200 rounded-md">writing functional code with Next.js, Tailwind and Firebase</button> }</button>  who likes building cool products.</p>
   
     </div>
  <div className="mx-64 mt-[185px] ">
