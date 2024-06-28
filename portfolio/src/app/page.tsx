@@ -77,8 +77,13 @@ export default function Home() {
     <h1 className=" lap-xl:text-[#1C1C1C] font-normal  mt-[162px]">Hi there, I’m  Srinath 👋</h1>
    <p className="text-black mt-4">I am a  
     
-    <button className=" text-left flex-col p-2 bg-gray-200 rounded-md  tab:flex-row  " onClick={fireOne}><i className="left-0 "> designer <Image width={30} height={30} src={'/figma.svg'} alt="" className="inline-flex ml-1 hover:animate-bounce"></Image></i> {clickOne &&  <span className=" bg-gray-200 rounded-md">making thoughtful experiences with Figma</span> }</button>and 
-    <button className=" text-left flex-col p-2 bg-gray-200 rounded-md mt-2  tab:flex-row " onClick={firetwo}><i className="left-0"> developer <Image width={30} height={30} src={'/dev.svg'} alt="" className="inline-flex ml-1 hover:animate-bounce"></Image></i> {clickTwo && <span className=" bg-gray-200 rounded-md justify-left">writing functional code with Next.js, Tailwind and Firebase</span> }</button>  who likes building cool products.</p>
+    <button className=" text-left flex-col   tab:flex-row tab:p-2    " onClick={fireOne}>
+      <i className=" bg-gray-200 rounded-md p-3"> designer 
+        <Image width={30} height={30} src={'/figma.svg'} alt="" className="inline-flex ml-1 hover:animate-bounce bg-gray-200"></Image>
+        </i> {clickOne &&  <span className=" leading-[50px]"> <span className="bg-gray-200 p-3 rounded-md">making</span> <span className="bg-gray-200 p-3 rounded-md">thoughtful</span><span className="bg-gray-200 p-3 ml-1 rounded-md">experiences</span> <span className="bg-gray-200 p-3 rounded-md">on</span> <span className="bg-gray-200 p-3 rounded-md">Figma</span></span>}
+        </button>and 
+        
+    <button className=" text-left flex-col tab:flex-row tab:p-2 " onClick={firetwo}><i className="left-0 bg-gray-200 p-3 rounded-md "> developer <Image width={30} height={30} src={'/dev.svg'} alt="" className="inline-flex ml-1 hover:animate-bounce"></Image></i> {clickTwo &&  <span className=" leading-[50px]"> <span className="bg-gray-200 p-3 rounded-md ml-1">writing</span> <span className="bg-gray-200 p-3 rounded-md ml-1">functional</span><span className="bg-gray-200 p-3 ml-1 rounded-md">code</span> <span className="bg-gray-200 p-3 rounded-md ml-1">with</span> <span className="bg-gray-200 p-3 rounded-md ml-1">Next.js,</span><span className="bg-gray-200 p-3 rounded-md ml-1">Tailwind</span><span className="bg-gray-200 p-3 rounded-md ml-1">Firebase</span></span>}</button>  who likes building cool products.</p>
   
     </div>
  <div className="mx-64 mt-[185px] ">
