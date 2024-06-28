@@ -77,8 +77,8 @@ export default function Home() {
     <h1 className=" lap-xl:text-[#1C1C1C] font-normal  mt-[162px]">Hi there, I’m  Srinath 👋</h1>
    <p className="text-black mt-4">I am a  
     
-    <button className=" flex-row p-2 bg-gray-200 rounded-md hover:animate-pulse" onClick={fireOne}><i> designer <Image width={30} height={30} src={'/figma.svg'} alt="" className="inline-flex ml-1"></Image></i> {clickOne && <button className=" bg-gray-200 rounded-md">making thoughtful experiences with Figma</button> }</button>and 
-    <button className=" flex-row p-2 bg-gray-200 rounded-md mt-2 hover:animate-pulse" onClick={firetwo}><i> developer <Image width={30} height={30} src={'/dev.svg'} alt="" className="inline-flex ml-1"></Image></i> {clickTwo && <button className=" bg-gray-200 rounded-md">writing functional code with Next.js, Tailwind and Firebase</button> }</button>  who likes building cool products.</p>
+    <button className=" text-left flex-col p-2 bg-gray-200 rounded-md  tab:flex-row  hover:animate-bounce" onClick={fireOne}><i className="left-0 "> designer <Image width={30} height={30} src={'/figma.svg'} alt="" className="inline-flex ml-1 "></Image></i> {clickOne &&  <span className=" bg-gray-200 rounded-md">making thoughtful experiences with Figma</span> }</button>and 
+    <button className=" text-left flex-col p-2 bg-gray-200 rounded-md mt-2  tab:flex-row  hover:animate-bounce" onClick={firetwo}><i className="left-0"> developer <Image width={30} height={30} src={'/dev.svg'} alt="" className="inline-flex ml-1"></Image></i> {clickTwo && <span className=" bg-gray-200 rounded-md justify-left">writing functional code with Next.js, Tailwind and Firebase</span> }</button>  who likes building cool products.</p>
   
     </div>
  <div className="mx-64 mt-[185px] ">
