@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import localFont from 'next/font/local'
 import "./globals.css";
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 const Circular_Std = localFont({ src: "./CircularStd-Book.ttf" });
 
@@ -17,6 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={Circular_Std.className}>{children}</body>
+      <GoogleAnalytics gaId="G-HQ4CNKT8M0" />
     </html>
   );
 }
