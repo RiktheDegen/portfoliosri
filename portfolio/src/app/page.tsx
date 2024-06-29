@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from 'next/link';
 import React, { useState } from 'react'
+import 'animate.css';
 
 export default function Home() {
  
@@ -74,16 +75,15 @@ export default function Home() {
   
   
   <div className=" mx-4 lap-xl:mx-64 lap:mx-16 tab:mx-8"> 
-    <h1 className=" lap-xl:text-[#1C1C1C] font-normal  mt-[162px]">Hi there, I’m  Srinath 👋</h1>
+    <h1 className=" lap-xl:text-[#1C1C1C] font-normal  mt-[162px]">Hi there, I’m  Srinath <span className="hover:animate__animated animate__swing">👋</span> </h1>
    <p className="text-black mt-4">I am a  
     
     <button className=" text-left flex-col   tab:flex-row tab:p-2    " onClick={fireOne}>
-      <i className=" bg-gray-200 rounded-md p-3"> designer 
+      <i className=" bg-gray-200 rounded-md p-3 leading-[50px]"> designer 
         <Image width={30} height={30} src={'/figma.svg'} alt="" className="inline-flex ml-1 hover:animate-bounce bg-gray-200"></Image>
         </i> {clickOne &&  <span className=" leading-[50px]"> <span className="bg-gray-200 p-3 rounded-md">making</span> <span className="bg-gray-200 p-3 rounded-md">thoughtful</span><span className="bg-gray-200 p-3 ml-1 rounded-md">experiences</span> <span className="bg-gray-200 p-3 rounded-md">on</span> <span className="bg-gray-200 p-3 rounded-md">Figma</span></span>}
-        </button>and 
-        
-    <button className=" text-left flex-col tab:flex-row tab:p-2 " onClick={firetwo}><i className="left-0 bg-gray-200 p-3 rounded-md "> developer <Image width={30} height={30} src={'/dev.svg'} alt="" className="inline-flex ml-1 hover:animate-bounce"></Image></i> {clickTwo &&  <span className=" leading-[50px]"> <span className="bg-gray-200 p-3 rounded-md ml-1">writing</span> <span className="bg-gray-200 p-3 rounded-md ml-1">functional</span><span className="bg-gray-200 p-3 ml-1 rounded-md">code</span> <span className="bg-gray-200 p-3 rounded-md ml-1">with</span> <span className="bg-gray-200 p-3 rounded-md ml-1">Next.js,</span><span className="bg-gray-200 p-3 rounded-md ml-1">Tailwind</span><span className="bg-gray-200 p-3 rounded-md ml-1">Firebase</span></span>}</button>  who likes building cool products.</p>
+        </button> <span className="mt-8">and</span> 
+    <button className=" text-left flex-col mt-3 tab:flex-row tab:p-2 " onClick={firetwo}><i className="left-0 bg-gray-200 p-3 rounded-md">  developer <Image width={30} height={30} src={'/dev.svg'} alt="" className="inline-flex ml-1 hover:animate-bounce"></Image></i> {clickTwo &&  <span className=" leading-[50px]"> <span className="bg-gray-200 p-3 rounded-md ">writing</span> <span className="bg-gray-200 p-3 rounded-md">functional</span><span className="bg-gray-200 p-3 ml-1 rounded-md">code</span> <span className="bg-gray-200 p-3 rounded-md ml-1">with</span> <span className="bg-gray-200 p-3 rounded-md ml-1">Next.js</span><span className="bg-gray-200 p-3 rounded-md ml-1">Tailwind</span><span className="bg-gray-200 p-3 rounded-md ml-1">Firebase</span></span>}</button>  who likes building cool products.</p>
   
     </div>
  <div className="mx-64 mt-[185px] ">
