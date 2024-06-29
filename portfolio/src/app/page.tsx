@@ -71,8 +71,8 @@ export default function Home() {
    <ul className="flex ">
     <div className="flex mx-auto space-x-8">
   <li className="text-black  text-lg ">Home</li>
-  <li className="text-gray-500  text-xl">About</li>
-  <li className="text-gray-500  text-xl">Projects</li>
+  <li className="text-gray-500  text-xl" ><Link href="#section1"></Link> About</li>
+  <li className="text-gray-500  text-xl"><Link href="#section2"></Link> Projects</li>
   </div>
    </ul>   
   </div>
@@ -104,7 +104,7 @@ export default function Home() {
 
 
 
- <div className=" mx-4 mt-32  lap-xl:mx-64 lap:mx-16 tab:mx-8">
+ <div className=" mx-4 mt-32  lap-xl:mx-64 lap:mx-16 tab:mx-8" >
 <h1 className="text-[30px] font-bold">TL:DR</h1>
 <p className="mt-4 text-lg ">
 Hi I’m Srinath. Currently I work on product and growth at Martian Wallet. I recently graduated from Duke University’s Fuqua School of Business. I’ve been building things since I was in middle school, ranging from apps and games with tens of thousands of downloads. I briefly ran Tatva Finance - a DeFi analytics startup where we built a screener for DeFi Yield Farms. I also worked with Dave Nemetz as Employee #1 at his Web3 Syndicate. Post college I ran a growth marketing agency and wrote a book with Abhinav Arora. 
