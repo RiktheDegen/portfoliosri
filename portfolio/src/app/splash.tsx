@@ -17,7 +17,7 @@ const SplashScreen = () => {
 
   return (
     <div className="fixed inset-0 flex items-center justify-center bg-black z-50">
-      <div className="relative w-[32rem] h-[32rem] mob-s:p-8">
+      <div className="relative w-[12rem] h-[12rem] p-8">
       <Rive
     src="eyerl.riv"
     stateMachines="State Machine 1"
