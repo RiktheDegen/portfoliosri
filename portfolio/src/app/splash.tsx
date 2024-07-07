@@ -9,8 +9,8 @@ const SplashScreen = () => {
   const [fade, setFade] = useState(false);
 
   useEffect(() => {
-    setTimeout(() => setFade(true), 2000);
-    setTimeout(() => setLoading(false), 2200);
+    setTimeout(() => setFade(true), 3200);
+    setTimeout(() => setLoading(false), 3400);
   }, []);
 
   if (!isVisible) return null;
@@ -22,7 +22,7 @@ const SplashScreen = () => {
       )}>
       <div className="relative w-[12rem] h-[12rem] p-8">
       <Rive
-    src="eyerl.riv"
+    src="eyerollsmiley.riv"
     stateMachines="State Machine 1"
   />
       </div>
