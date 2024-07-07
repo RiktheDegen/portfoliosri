@@ -2,7 +2,7 @@
 import Image from "next/image";
 import Link from 'next/link';
 import React, { useState } from 'react'
-
+import SplashScreen from "./splash";
 
 
 
@@ -67,6 +67,7 @@ export default function Home() {
 
   return (
   <>
+  <SplashScreen/>
   <div className=" max-w-[300px]  bg-white border border-neutral-400 p-[20px] rounded-full mt-[32px] mx-auto">
    <ul className="flex ">
     <div className="flex mx-auto space-x-8">
@@ -104,7 +105,9 @@ export default function Home() {
 
 
 
- <div className=" mx-4 mt-32  lap-xl:mx-64 lap:mx-16 tab:mx-8" >
+ <div
+ 
+ className=" mx-4 mt-32  lap-xl:mx-64 lap:mx-16 tab:mx-8" >
 <h1 className="text-[30px] font-bold">TL:DR</h1>
 <p className="mt-4 text-lg ">
 Hi I’m Srinath. Currently I work on product and growth at Martian Wallet. I recently graduated from Duke University’s Fuqua School of Business. I’ve been building things since I was in middle school, ranging from apps and games with tens of thousands of downloads. I briefly ran Tatva Finance - a DeFi analytics startup where we built a screener for DeFi Yield Farms. I also worked with Dave Nemetz as Employee #1 at his Web3 Syndicate. Post college I ran a growth marketing agency and wrote a book with Abhinav Arora. 
